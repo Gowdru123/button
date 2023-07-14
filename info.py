@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', 'f0f35dbb5b0081cdc8d3c9d5383c4628')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6274599665:AAFTSoJTSLMweccwtQB9Z8IgWQrbIfaqv1s")
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 180))
+CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/32eb533d2f950973bcc21.jpg')).split()
@@ -27,7 +27,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e6782efeb06d66574
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/5e8589787a84ca94c26cf.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6093431204').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5123039648').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001821450983').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -49,21 +49,21 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'kpslink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '89b9bd3f63cdc7263994a634c96474c17efdc618')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'kpslink.in')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '89b9bd3f63cdc7263994a634c96474c17efdc618')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'vnshortener.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '4a3122b8da04ec470a4c4aaadbea9e89e0a9df6b ')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'vnshortener.com')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '4a3122b8da04ec470a4c4aaadbea9e89e0a9df6b')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001767829947').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Sujan_BotZ')
+GRP_LNK = environ.get('GRP_LNK', 'tg://Settings')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Sujan_BotZ')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Sujan_BotZ')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴘʀɪᴠᴀᴄʏ ɪꜱ ᴄʀɪᴍᴇ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001811414043'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ElinaFilterBot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
