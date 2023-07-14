@@ -13,22 +13,22 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '25502576'))
+API_HASH = environ.get('API_HASH', 'f0f35dbb5b0081cdc8d3c9d5383c4628')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6274599665:AAFTSoJTSLMweccwtQB9Z8IgWQrbIfaqv1s")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', '')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/9592fb9d2f31e619dff77.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/c71f7bc667122cd1be418.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/32eb533d2f950973bcc21.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/efd525bc133e1cbd0c966.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e6782efeb06d66574ce70.mp4")
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/5e8589787a84ca94c26cf.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6093431204').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001821450983').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -43,8 +43,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sujanch846:sujanch846@cluster0.sqvan6z.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Sujan_BotZ")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -53,16 +53,16 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', 'vnshortener.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '4a3122b8da04ec470a4c4aaadbea9e89e0a9df6b ')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'vnshortener.com')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '4a3122b8da04ec470a4c4aaadbea9e89e0a9df6b')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
-MAX_B_TN = environ.get("MAX_B_TN", "5")
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001767829947').split()]
+MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/abmovierequestgroup')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AB_BotZ_Update')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/https://t.me/howtodownloadmovie1200/56')
+GRP_LNK = environ.get('GRP_LNK', 'tg://Settings')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Sujan_BotZ')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Sujan_BotZ')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ BABY ?')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴘʀɪᴠᴀᴄʏ ɪꜱ ᴄʀɪᴍᴇ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'abmovierequestgroup')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)

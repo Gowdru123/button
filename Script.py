@@ -6,8 +6,8 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Ab_Admin0>☢ My Boss ☢</a></b>
-<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/AB_BotZ_Update>TT Bot Updates 👾</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Sujan_Ch>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
+<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/Sujan_BotZ>ʙᴏᴛ ᴜᴘᴅᴀᴛᴇꜱ</a></b>
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT = """
@@ -33,7 +33,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/AB_BotZ_Update)</code>
+<code>[Button Text](buttonurl:https://t.me/Sujan_BotZ)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -123,11 +123,11 @@ Nᴀᴍᴇ - {}"""
 
 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-ᴇxᴀᴍᴘʟᴇ : \n➨ ᴀᴠᴀᴛᴀʀ: ᴛʜᴇ ᴡᴀʏ ᴏғ ᴡᴀᴛᴇʀ\n➨ kgf\n➨ RRR\n➨ pushpa\n➨ varisu\n➨ kantara\n\n
+ᴇxᴀᴍᴘʟᴇ : \n➨ 𝙺𝙶𝙵\n➨ 𝚁𝚁𝚁\n➨ 𝙿𝚞𝚜𝚑𝚙𝚊\n➨ 𝚅𝚊𝚛𝚒𝚜𝚞\n➨ 𝙺𝚊𝚗𝚝𝚊𝚛𝚊\n\n
 
 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-ᴇxᴀᴍᴘʟᴇ : \n➨ ᴍᴏɴᴇʏ ʜᴇɪsᴛ S01E01\n➨ gutur gu s01\n➨ College romance s01/s02/s03\n➨ The Family Man S01/S02\n➨ Asur S01/S02\n\n
+ᴇxᴀᴍᴘʟᴇ : \n➨ 𝙼𝚒𝚛𝚣𝚊𝚙𝚞𝚛 S01\n➨ 𝙶𝚞𝚝𝚞𝚛 𝙶𝚞 S01\n➨ 𝙲𝚘𝚕𝚕𝚎𝚐𝚎 𝚁𝚘𝚖𝚊𝚗𝚌𝚎 S01\n➨ 𝙰𝚜𝚞𝚛 S01\n\n
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
@@ -140,23 +140,29 @@ Nᴀᴍᴇ - {}"""
 
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
-    SHORTLINK_INFO = """
-<b>──────「<a href=https://t.me/TeamHMT_Bots/44> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
+    SHORTLINK_INFO = """<b>──────「Eᴀʀɴ ᴍᴏɴᴇʏ💰」──────
+    
+➥ ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ 💰 ꜰʀᴏᴍ ᴏᴜʀ ʙᴏᴛ.💸
 
-Yᴏᴜ ᴄᴀɴ Eᴀʀɴ Mᴏɴᴇʏ Fʀᴏᴍ Tʜɪs Bᴏᴛ Uɴᴛɪʟ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟɪᴠᴇ.
+[ ꜱᴛᴇᴘ1 ]👉ᴀᴅᴅ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ.
 
-Wᴀɴᴛ ᴛᴏ Kɴᴏᴡ Hᴏᴡ? Fᴏʟʟᴏᴡ Tʜᴇsᴇ Sᴛᴇᴘs:-
+[ ꜱᴛᴇᴘ 2 ]👉 ꜱᴇɴᴅ /ᴄᴏɴɴᴇᴄᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
-sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 1𝟶𝟶 ᴍᴇᴍʙᴇʀs.
+[ ꜱᴛᴇᴘ 3 ]👉 ꜱᴇɴᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪᴅ ᴀʟᴏɴɢ ᴡɪᴛʜ ɢʀᴏᴜᴘ ʟɪɴᴋ - @Sujan_Ch.
 
-sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=https://mplaylink.com/ref/106324576666323105902>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
+[ ꜱᴛᴇᴘ 4 ] 👉ᴇɴᴊᴏʏ ᴀꜰᴛᴇʀ ᴀᴄᴛɪᴠᴀᴛɪᴏɴ. 
 
-sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/TeamHMT_Bots/44> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
+ʜᴏᴡ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ꜱʜᴏʀᴛɴᴇʀ ? 👇
 
-➣ Yᴏᴜ ᴄᴀɴ ᴄᴏɴɴᴇᴄᴛ ᴀs ᴍᴀɴʏ ɢʀᴏᴜᴘ ʏᴏᴜ ʜᴀᴠᴇ.
+ᴜꜱᴇ ᴄᴏᴍᴍᴀɴᴅ - /ꜱʜᴏʀᴛʟɪɴᴋ ᴀꜰᴛᴇʀ ᴀᴄᴛɪᴠᴀᴛɪᴏɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
 
-Any Doubts or Not Connecting? Contact Me </b>
-"""
+[ꜰᴏʀᴍᴀᴛ - /ꜱʜᴏʀᴛʟɪɴᴋ ᴡᴇʙꜱɪᴛᴇɴᴀᴍᴇ ᴀᴘɪᴛᴏᴋᴇɴ]
+
+ᴇxᴀᴍᴘʟᴇ 👇
+
+ /shortlink tinyfy.in 4a3122b8da04ec470a4c4aaadbea9e89e0a9df6b
+
+ [ɴᴏᴛᴇ 👉ᴏᴜʀ ʙᴏᴛ ɪꜱ ꜰʀᴇᴇ ꜰᴏʀ ᴇᴠᴇʀʏ ᴜꜱᴇʀ ]."""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
@@ -179,7 +185,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 ɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ
 
-ᴇxᴀᴍᴘʟᴇ : \n➨ ᴍᴏɴᴇʏ ʜᴇɪsᴛ S01E01\n➨ gutur gu s01\n➨ Varisu\n➨  KGF \n➨ RRR\n\n
+ᴇxᴀᴍᴘʟᴇ : \n➨ 𝙼𝚒𝚛𝚣𝚊𝚙𝚞𝚛 S01\n➨ 𝙶𝚞𝚝𝚞𝚛 𝙶𝚞 S01\n➨ 𝙲𝚘𝚕𝚕𝚎𝚐𝚎 𝚁𝚘𝚖𝚊𝚗𝚌𝚎 S01\n➨ 𝙰𝚜𝚞𝚛 S01\n\n
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)"""
 
@@ -192,11 +198,13 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/abmovierequestgroup> ⚜️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ⚜️ </a>
-▫️<a href=https://t.me/AB_BotZ_Update> ⚜️Update Channel🔰 </a>
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
+    CAPTION = """<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
+\n\n✿ <em>File Size</em>: <code>{file_size}</code>
+<b>
+=========== • ✠ • ===========
+▫️ ʙᴏᴛ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/Sujan_BotZ">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+▫️ ʙᴏᴛ ᴏᴡɴᴇʀ : <a href="tg://settings">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+=========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
