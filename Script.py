@@ -198,7 +198,8 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 Fɪʟᴇɴᴀᴍᴇ : </b> <code>'file_name'</code>\n\n✿ <em>Size</em>: <code>'file_size'</code>
+    CAPTION = """<b>📂 Fɪʟᴇɴᴀᴍᴇ : </b> <code>{file_name}</code>
+\n\n✿ <em>File Size</em>: <code>{file_size}</code>
 <b>
 =========== • ✠ • ===========
 ▫️ ʙᴏᴛ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/Sujan_BotZ">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
